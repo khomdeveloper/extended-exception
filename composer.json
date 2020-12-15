@@ -1,0 +1,14 @@
+{
+    "name": "valera261104/extended-exception",
+    "description": "Extended exception with logging and translation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Valeriy Khom",
+            "email": "khom.developer@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
