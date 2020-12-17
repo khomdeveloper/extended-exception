@@ -10,5 +10,15 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require" : {
+        "valera261104/base-class" : "^1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "classmap": [
+            "Exceptions/"
+        ]
+    }
 }
