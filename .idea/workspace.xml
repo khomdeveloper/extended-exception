@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0ccb3d4e-6a15-4f0b-86c1-ccbf73d2c885" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exceptions/ExtendedException.php" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions/ExtendedException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ExceptionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ExceptionTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +70,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
@@ -87,7 +90,8 @@
       <updated>1608043360937</updated>
       <workItem from="1608043362151" duration="1382000" />
       <workItem from="1608144276247" duration="5039000" />
-      <workItem from="1608226027210" duration="2453000" />
+      <workItem from="1608226027210" duration="3086000" />
+      <workItem from="1608235265244" duration="258000" />
     </task>
     <servers />
   </component>

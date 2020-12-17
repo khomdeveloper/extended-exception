@@ -32,9 +32,17 @@ abstract class ExtendedException extends \Exception
 
         $key = $class . '::getError';
 
-        return [
+        return empty($data) ? [
             $key => [
                 'en' => ucfirst(StaticStringService::camelCaseToUnderScore($shortClassName, ' '))
+            ]
+        ] : [
+            $key => [
+                'en' => ucfirst(StaticStringService::camelCaseToUnderScore($shortClassName,
+                        ' ') . '. Data: {{json}}'),
+                'data' => [
+                    'json' => json_encode($data)
+                ]
             ]
         ];
 

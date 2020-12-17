@@ -20,4 +20,15 @@ class ExceptionTest extends \PHPUnit\Framework\TestCase
 
     }
 
+    public function testExceptionWithData()
+    {
+
+        $ex = new FileNotFound(['file' => 'somefile']);
+
+        $message = json_decode($ex->getMessage(), true);
+
+        $this->assertEquals(json_encode(['file' => 'somefile']),  current($message)['data']['json']);
+
+    }
+
 }
