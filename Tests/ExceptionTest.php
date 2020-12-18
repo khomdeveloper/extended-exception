@@ -1,9 +1,8 @@
 <?php
 
-namespace valera261104\ExtendedException\Tests;
+namespace ExtendedException\Tests;
 
-
-use valera261104\ExtendedException\Standart\FileNotFound;
+use ExtendedException\FileNotFound;
 
 class ExceptionTest extends \PHPUnit\Framework\TestCase
 {

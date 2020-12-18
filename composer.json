@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "valera261104\\ExtendedException\\": ""
+            "ExtendedException\\": "Source"
         }
     }
 }

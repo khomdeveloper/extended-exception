@@ -1,7 +1,7 @@
 <?php
 
 
-namespace valera261104\ExtendedException;
+namespace ExtendedException;
 
 
 use Throwable;
