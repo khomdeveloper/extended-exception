@@ -1,8 +1,10 @@
 <?php
 
 
-namespace valera261104\ExtendedException\Exceptions;
+namespace valera261104\ExtendedException\Standart;
 
+
+use valera261104\ExtendedException\ExtendedException;
 
 class FileNotFound extends ExtendedException
 {

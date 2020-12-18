@@ -2,7 +2,8 @@
 
 namespace valera261104\ExtendedException\Tests;
 
-use valera261104\ExtendedException\Exceptions\FileNotFound;
+
+use valera261104\ExtendedException\Standart\FileNotFound;
 
 class ExceptionTest extends \PHPUnit\Framework\TestCase
 {
@@ -14,7 +15,7 @@ class ExceptionTest extends \PHPUnit\Framework\TestCase
 
         $ex = new FileNotFound();
 
-        $message = json_decode($ex->getMessage(), true);
+        $message = \json_decode($ex->getMessage(), true);
 
         $this->assertEquals('File not found', current($message)['en']);
 
@@ -25,9 +26,9 @@ class ExceptionTest extends \PHPUnit\Framework\TestCase
 
         $ex = new FileNotFound(['file' => 'somefile']);
 
-        $message = json_decode($ex->getMessage(), true);
+        $message = \json_decode($ex->getMessage(), true);
 
-        $this->assertEquals(json_encode(['file' => 'somefile']),  current($message)['data']['json']);
+        $this->assertEquals(\json_encode(['file' => 'somefile']),  current($message)['data']['json']);
 
     }
 

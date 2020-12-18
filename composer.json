@@ -17,8 +17,8 @@
         "phpunit/phpunit": "^9"
     },
     "autoload": {
-        "classmap": [
-            "Exceptions/"
-        ]
+        "psr-4": {
+            "valera261104\\ExtendedException\\": ""
+        }
     }
 }
