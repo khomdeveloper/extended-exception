@@ -4,8 +4,9 @@
 namespace ExtendedException;
 
 
+use BaseClass\StaticStringService;
 use Throwable;
-use valera261104\BaseClass\Services\StaticStringService;
+
 
 /**
  * Class ExtendedException

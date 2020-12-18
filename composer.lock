@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0a34e82aa8133f563663f010cd98f3e4",
+    "content-hash": "f56648dc2c25bcbca23d4e9b30ef2482",
     "packages": [
         {
             "name": "valera261104/base-class",
-            "version": "v1.1",
+            "version": "v1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/khomdeveloper/base-class.git",
-                "reference": "1c9664a247b19da08f9d81986eb788182e913159"
+                "reference": "aa04f0b8cf9c633946bffe952c3eec5354113df4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/khomdeveloper/base-class/zipball/1c9664a247b19da08f9d81986eb788182e913159",
-                "reference": "1c9664a247b19da08f9d81986eb788182e913159",
+                "url": "https://api.github.com/repos/khomdeveloper/base-class/zipball/aa04f0b8cf9c633946bffe952c3eec5354113df4",
+                "reference": "aa04f0b8cf9c633946bffe952c3eec5354113df4",
                 "shasum": ""
             },
             "require-dev": {
@@ -25,10 +25,9 @@
             },
             "type": "library",
             "autoload": {
-                "classmap": [
-                    "Services/",
-                    "Tests/"
-                ]
+                "psr-4": {
+                    "BaseClass\\": "Source"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -41,7 +40,7 @@
                 }
             ],
             "description": "Base Class",
-            "time": "2020-12-17T17:30:32+00:00"
+            "time": "2020-12-18T12:29:41+00:00"
         }
     ],
     "packages-dev": [
